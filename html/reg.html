@@ -1,0 +1,78 @@
+<html>
+<head>
+<title>Register</title>
+<link rel="stylesheet" type="text/css" href="css/reg.css">
+</head>
+    <form action="regg.php" method="post" enctype="multipart/form-data">
+<body>
+
+  
+    
+   
+
+    <h1><b>Student Registration</b></h1>
+         <div class="nav">
+  <ul>
+  <li><a href="//localhost:8080\dpro\home.html">Home</a></li> 
+  <li><a href="//localhost:8080\dpro\reg.html">Registration</a></li>
+  <li><a href="//localhost:8080\dpro\Rules.html">Rules</a></li>      
+  <li><a href="//localhost:8080\dpro\retrive.php">Student Details</a></li>  
+
+
+</ul>
+</div><br><br>
+<div id="box">
+                
+        <label><b>Registration Fee*: 10000 rupees(DD Payment)<br></b></label><br>
+   <label>Upload Your Picture*</label>
+    <table>
+    <tr><td><input type="file" name="ufile" value=""id="f"></td></tr>
+       
+         
+            
+               
+         
+       
+</table><br>
+          
+  Name:*
+  <input type="text" name="fname" placeholder="first">  <input type="text" name="lname" placeholder="last"><br><br>
+
+  Address:*
+  <input type="text" name="address" placeholder="Full address"><br><br>
+  E-mail:*
+  <input type="email" name="email">
+  Phone:*<input type="text" name="phone" placeholder="### ### ####"><br><br>
+Course:* <input type="text" name="course"><br><br>
+      Stream:* <input type="text" name="stream"><br><br>
+Enrollment:* <input type="text" name="enroll"><br><br>
+  <label>Which room you would like to book?</label><br><br>
+   
+    <input type="checkbox" name="mt[]" value="Single Room"/>Single Sharing Room<br><br>
+    <input type="checkbox" name="mt[]" value="Double Room"/>Twin Sharing Room<br><br>
+    <input type="checkbox" name="mt[]" value="Triple Room"/>Four Sharing Room<br><br><br>
+    
+    <label>What you require?</label><br><br>
+   
+    <input type="checkbox" name="mt[]" value="with Fan"/>Fan<br><br>
+    <input type="checkbox" name="mt[]" value="with Fan and AC"/>Fan with AC<br><br>
+    <input type="checkbox" name="mt[]" value="with Fan and Cooler"/>Fan with Cooler<br><br>
+    
+        <label>Which mess you want?</label><br><br>
+   
+    <input type="checkbox" name="mt[]" value="and having mess1."/>Mess 1(North Food)<br>
+    <input type="checkbox" name="mt[]" value="and having mess2."/>Mess 2(South Food)<br>
+
+
+    
+  <br><label><b>Any requests or requirements:<br></b></label><input type="text"name="ta"><br><br>
+   
+    <button type="submit" name="submit">Submit</button>
+    </div>
+        </body>
+      
+    </form>
+    
+    
+</html>
+    
