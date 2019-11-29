@@ -1,0 +1,76 @@
+a{
+
+color:black;
+font-weight:bold;
+
+text-align: center;
+text-decoration:none;
+font-size: 40px;
+padding:10px;
+  
+
+  }
+
+.nav
+{
+
+ background-color:skyblue;
+ 
+}
+  
+  ul{
+    width:100%;
+    display: table;
+text-align: center; 
+list-style-type:none;
+height:50px; 
+padding:2px;
+position: absolute;
+top:90px;
+}
+
+li
+{ 
+  text-align: center; 
+    display:table-cell;
+  transition: 200ms;
+
+    
+
+
+}
+li:hover{
+  letter-spacing:2px; 
+}
+
+body{
+margin:0;
+  background-image:url("ff.jpg");
+  background-size:cover; 
+}
+a:hover{
+background-color:red;
+background-size:cover;}
+
+#H{
+  text-align:center;
+  font-weight:bold;
+  font-size:50px;
+  font-family:trajan;
+  padding:2px;
+  
+  background-color:skyblue;
+  
+  
+  
+}
+   #A
+   {
+      font-family:trajan;
+   font-size:30px;
+      padding:2px;
+       
+       margin-top:10%;
+  
+  background-color:skyblue;
+   }

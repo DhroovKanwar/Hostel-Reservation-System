@@ -1,0 +1,44 @@
+
+      body{
+        background-color:#70a1ff;
+          
+            
+    }
+
+    #delete
+    {
+        
+  
+  top:60%;
+    margin-left:50%;
+    padding:10px;
+    outline:none;
+    font-size:50px; 
+    border-radius:20px;
+    background-color:cyan;
+    cursor:pointer;
+}
+    
+
+#delete:hover{
+    background-color:brown;
+    
+}
+    h1{
+        text-align: center;
+        font-size: 60px;
+        margin-top: 10%;
+        font-family: cursive;
+        color:darkcyan;
+    }
+    #q{
+        text-align: center;
+        font-size: 70px;
+        
+        font-family: cursive;
+        color:blueviolet;
+        margin-left: 10%;
+        margin-top: 16%;
+    }
+            
+            

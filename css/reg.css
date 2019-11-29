@@ -1,0 +1,53 @@
+body
+{
+  background-color:cyan;
+}
+h1
+{
+  text-align:center;
+  font-family:'Comic Sans MS';
+  font-weight:600;
+  color:#70a1ff;
+  background-color:cyan;
+}
+a
+{
+  text-decoration:none;
+}
+ul
+{
+  display:table;
+  width:100%;
+  font-size:40px;
+  
+}
+li
+{
+  display:table-cell;
+  
+}
+a:hover
+{
+  background-color:skyblue;
+  font-size:50px;
+  transition:200ms;
+}
+.nav
+{
+  background-color:cyan;
+}
+#box
+{
+  
+  position:absolute;
+  margin-top:0;
+  margin-left:30%;
+  color:darkblue;
+  background-color:darkcyan;
+  font-size:20px;
+  
+}
+#sub
+{
+  color:darkblue;
+}

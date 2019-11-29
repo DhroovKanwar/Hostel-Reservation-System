@@ -1,0 +1,53 @@
+body{
+                  background-image: url('l.jpg');
+  background-size: cover;
+                   
+    }
+ button#delete
+{
+        position:absolute;
+  
+  top:65%;
+    left:75%;
+    padding:10px;
+    outline:none;
+    font-size:50px; 
+    border-radius:20px;
+    background-color:cyan;
+    cursor:pointer;
+}
+    
+
+button#delete:hover{
+    background-color:brown;
+    
+}
+div#txt {
+     font-family:'Comic Sans MS';
+                color:white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+    width: 500px;
+    height: 500px;
+    background-color:darkcyan;
+      position:absolute;
+    margin-left:30%;
+    margin-top: 3%;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 10s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}

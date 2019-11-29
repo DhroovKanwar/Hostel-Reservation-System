@@ -1,0 +1,118 @@
+    body 
+        {
+        background-color: cyan;
+        }
+     h1
+     {
+        text-align: center;
+        font-size: 30px;
+        background-color: deepskyblue;
+        font-family: cursive;
+      }
+    table{
+        background-color: cyan;
+        padding: 1px;
+        border:  1px solid black;
+    }
+    tr,td
+    {
+        background-color: deepskyblue;
+        font-size: 20px;
+    }
+
+
+  
+    input#query
+    {
+    width: 300px;
+    font-family:'Comic Sans MS';
+    background-color:cyan;
+    }
+    label#query
+    {
+        font-family:'Comic Sans MS';
+        color:cyan;
+        font-weight: bold;
+        font-size:100px; 
+    }
+    body{margin:0;}
+   
+    table
+    {
+        
+        border: 1px solid black;
+        
+    }
+    tr,td
+    {
+         border:1px solid black;
+         padding:10px;
+    }
+    th
+    {
+
+        background-color: white;
+        border: 1px solid black;
+        padding:10px;
+        border:1px solid black;
+        position: sticky;
+        margin-top:0;
+    }
+    
+  
+    button#su
+    {
+    position:sticky;
+    top:15%;
+    left:75%;
+    padding:10px;
+    outline:none;
+    font-size:50px; 
+    border-radius:20px;
+    background-color:cyan;
+    cursor:pointer;
+    }
+button#su:hover
+    {
+    background-color:brown;
+    }
+   
+
+    table
+    {
+        border-collapse: collapse;
+        width:1 00%;
+    }
+    tr,td,th
+    {
+        
+        padding:10px;
+        border:none;
+        width:100px;
+    }
+
+  
+    
+    div#box
+    {
+        height:200px;
+        width:200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    h1,h2
+    {
+        font-family: 'Comic Sans MS';
+        color: cyan;
+    }
+    
+    #delete
+    {
+        padding:1px;
+        background-color: cyan;
+    }
+    #delete:hover
+    {
+    background-color:brown;
+    }
